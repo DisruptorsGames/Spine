@@ -1,0 +1,91 @@
+{
+"skeleton": { "hash": "W3C4wPuC2Xtf0p+dJTO6RWbeuXA", "spine": "3.6.04-beta", "width": 16, "height": 32, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Hip", "parent": "root", "y": 16 },
+	{ "name": "Torso", "parent": "Hip", "length": 7.96, "rotation": 93.54 },
+	{ "name": "Head", "parent": "Torso", "length": 3.7, "rotation": 10.72, "x": 8.24, "y": 0.13 },
+	{ "name": "L_Shoulder", "parent": "Torso", "length": 3.96, "rotation": -134.91, "x": 6.55, "y": -1.86 },
+	{ "name": "L_Arm", "parent": "L_Shoulder", "length": 3.24, "rotation": 110.87, "x": 3.96 },
+	{ "name": "L_Thigh", "parent": "Hip", "length": 5.42, "rotation": -80.64, "x": 1.5, "y": -2.86 },
+	{ "name": "L_Shin", "parent": "L_Thigh", "length": 4.37, "rotation": -15.68, "x": 5.47, "y": -0.12 },
+	{ "name": "L_Foot", "parent": "L_Shin", "length": 1.68, "rotation": 85.43, "x": 4.35, "y": 0.02 },
+	{ "name": "L_Hand", "parent": "L_Arm", "length": 1.46, "rotation": 16.29, "x": 3.26, "y": -0.04 },
+	{ "name": "R_Shoulder", "parent": "Torso", "length": 3.7, "rotation": 150.03, "x": 6.47, "y": 2.02 },
+	{ "name": "R_Arm", "parent": "R_Shoulder", "length": 3.29, "rotation": 18.01, "x": 3.7 },
+	{ "name": "R_Thigh", "parent": "Hip", "length": 6.62, "rotation": -98.49, "x": -1.54, "y": -2.96 },
+	{ "name": "R_Shin", "parent": "R_Thigh", "length": 4.22, "rotation": -0.55, "x": 6.58, "y": 0.02 },
+	{ "name": "R_Foot", "parent": "R_Shin", "length": 1.84, "rotation": 88.32, "x": 4.12, "y": 0.02 },
+	{ "name": "R_Hand", "parent": "R_Arm", "length": 1.66, "rotation": -17.91, "x": 3.35, "y": -0.02 }
+],
+"slots": [
+	{ "name": "Template", "bone": "root", "color": "00000060", "attachment": "Template" },
+	{ "name": "Hip", "bone": "Hip", "attachment": "Hip" },
+	{ "name": "R_Thigh", "bone": "R_Thigh", "attachment": "R_Thigh" },
+	{ "name": "R_Shin", "bone": "R_Shin", "attachment": "R_Shin" },
+	{ "name": "R_Foot", "bone": "R_Foot", "attachment": "R_Foot" },
+	{ "name": "L_Foot", "bone": "L_Foot", "attachment": "L_Foot" },
+	{ "name": "L_Shin", "bone": "L_Shin", "attachment": "L_Shin" },
+	{ "name": "L_Thigh", "bone": "L_Thigh", "attachment": "L_Thigh" },
+	{ "name": "Torso", "bone": "Torso", "attachment": "Torso" },
+	{ "name": "R_Hand", "bone": "R_Hand", "attachment": "R_Hand" },
+	{ "name": "R_Arm", "bone": "R_Arm", "attachment": "R_Arm" },
+	{ "name": "R_Shoulder", "bone": "R_Shoulder", "attachment": "R_Shoulder" },
+	{ "name": "L_Hand", "bone": "L_Hand", "attachment": "L_Hand" },
+	{ "name": "L_Arm", "bone": "L_Arm", "attachment": "L_Arm" },
+	{ "name": "L_Shoulder", "bone": "L_Shoulder", "attachment": "L_Shoulder" },
+	{ "name": "Head", "bone": "Head", "attachment": "Head" }
+],
+"skins": {
+	"default": {
+		"Head": {
+			"Head": { "x": 2.8, "y": -0.3, "rotation": -84.1, "width": 5, "height": 6 }
+		},
+		"Hip": {
+			"Hip": { "y": -1.5, "width": 4, "height": 3 }
+		},
+		"L_Arm": {
+			"L_Arm": { "x": 1.71, "y": -0.19, "rotation": 98.88, "width": 1, "height": 3 }
+		},
+		"L_Foot": {
+			"L_Foot": { "x": 0.71, "y": 0.15, "rotation": 2, "width": 2, "height": 1 }
+		},
+		"L_Hand": {
+			"L_Hand": { "x": 1.02, "y": 0.11, "rotation": 119.98, "width": 2, "height": 2 }
+		},
+		"L_Shin": {
+			"L_Shin": { "x": 1.71, "y": -0.13, "rotation": 97.78, "width": 1, "height": 4 }
+		},
+		"L_Shoulder": {
+			"L_Shoulder": { "x": 1.46, "y": 0.4, "rotation": 58.64, "width": 2, "height": 5 }
+		},
+		"L_Thigh": {
+			"L_Thigh": { "x": 2.63, "y": -0.23, "rotation": 84.92, "width": 1, "height": 5 }
+		},
+		"R_Arm": {
+			"R_Arm": { "x": 1.82, "y": 0.16, "rotation": 84.03, "width": 1, "height": 3 }
+		},
+		"R_Foot": {
+			"R_Foot": { "x": 0.78, "y": 0.09, "rotation": 2.29, "width": 2, "height": 1 }
+		},
+		"R_Hand": {
+			"R_Hand": { "x": 1.09, "y": 0.07, "rotation": 65.45, "width": 2, "height": 2 }
+		},
+		"R_Shin": {
+			"R_Shin": { "x": 1.06, "y": -0.31, "rotation": 101.47, "width": 1, "height": 5 }
+		},
+		"R_Shoulder": {
+			"R_Shoulder": { "x": 1.36, "y": -0.38, "rotation": 120.26, "width": 2, "height": 5 }
+		},
+		"R_Thigh": {
+			"R_Thigh": { "x": 2.53, "y": -0.17, "rotation": 85.32, "width": 1, "height": 5 }
+		},
+		"Template": {
+			"Template": { "y": 16, "width": 16, "height": 32 }
+		},
+		"Torso": {
+			"Torso": { "x": 4, "y": 0.02, "rotation": -89.71, "width": 4, "height": 8 }
+		}
+	}
+}
+}
